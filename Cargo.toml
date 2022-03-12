@@ -1,0 +1,12 @@
+[package]
+name = "chat-server"
+version = "0.1.0"
+edition = "2021"
+
+# https://youtu.be/4DqP57BHaXI
+# this code base is based on the tutorial found at this youtube channel
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
